@@ -116,7 +116,7 @@ h2 {
 }
 
 strong {
-	/*background: url("../assets/smallLogo.png") no-repeat center;*/
+	background: url("../assets/smallLogo.png") no-repeat center;
 	display: inline;
 	min-height: 30px;
 	width: 200px;
