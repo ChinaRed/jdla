@@ -1,0 +1,219 @@
+@import url("reset.css");
+
+html {
+	background-color: #D36027;
+}
+
+header img {
+	width:100%;
+}
+body {
+	background-color:white;
+	text-align:center;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+}
+
+ul {
+	padding-top:15px;
+	padding-bottom: 15px;
+	word-spacing: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+ul li {
+	list-style: none;
+	display: inline;
+}
+
+header {
+	background-color:;
+}
+
+
+header nav {
+	text-transform: uppercase;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+nav a:link, a:visited {
+    color: #234659;
+    text-decoration: none;
+}
+
+nav a:hover, a:active {
+    color: #D8672B ;
+}
+
+#container {
+	padding: ;
+}
+
+p {
+	font-size:20px;
+}
+
+.post_container {
+
+	text-align:center;
+	display: block;
+	margin: auto auto auto auto;
+	padding: 5% 40px 5% 40px;
+
+}
+
+.post_container .description img {
+	position: relative;
+	display:inline;
+}
+
+#about {
+
+	background-color: #003e54;
+	position: relative;
+
+}
+
+#about:after {
+        background: linear-gradient(-45deg, #45565b 16px, transparent 0), linear-gradient(45deg, #45565b 16px, transparent 0);
+        background-position: left-bottom;
+        background-repeat: repeat-x;
+        background-size: 25px 30px;
+        content: " ";
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 30px;
+}
+
+#about h2 {
+
+	color:white;
+	padding-bottom: 70px;
+}
+
+#about .description {
+	color: #2ab6d7;
+}
+
+.post_container .description p{
+
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+h2 {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 5px 60px 5px;
+	word-spacing: 5px;
+	letter-spacing: 2px;	
+}
+
+strong {
+	background: url("../assets/smallLogo.png") no-repeat center;
+	display: inline;
+	min-height: 30px;
+	width: 200px;
+	padding: 40px; 
+	color: transparent;
+}
+
+#classes {
+	background-color: #45565b;
+	position:relative;
+}
+
+#classes:after {
+        background: linear-gradient(-45deg, white 16px, transparent 0), linear-gradient(45deg, white 16px, transparent 0);
+        background-position: left-bottom;
+        background-repeat: repeat-x;
+        background-size: 25px 30px;
+        content: " ";
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 30px;
+}
+
+#classes h3 {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	word-spacing: 10px;
+	letter-spacing: 5px;
+}
+#classes .description h2 {
+
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#classes .description {
+	color: white;
+}
+
+#classes .description p {
+
+	color: #e39531;
+}
+
+
+#classes hgroup {
+	line-height: 25px;
+}
+
+#location {
+	position: relative;
+	background-color: white;
+}
+
+#location:after {
+        background: linear-gradient(-45deg, #D8672B 16px, transparent 0), linear-gradient(45deg, #D8672B 16px, transparent 0);
+        background-position: left-bottom;
+        background-repeat: repeat-x;
+        background-size: 25px 30px;
+        content: " ";
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 30px;
+}
+
+
+
+
+
+#contact {
+	background-color: #D8672B;
+	position: relative;
+}
+
+#contact .description{
+	color:white;
+}
+
+.footer {
+	background-color: #45565b;
+
+}
+
+small p{
+
+	padding-top: 15px;
+	padding-bottom:15px;
+	text-transform: uppercase;
+	font-size: 12px;
+	word-spacing: 10px;
+	color:lightgrey;
+
+}
